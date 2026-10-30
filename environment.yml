@@ -1,0 +1,13 @@
+
+name: pmd03-elastic
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+  - pip
+  - jupyterlab
+  - ipykernel
+  - graphviz
+  - pip:
+      - -e .
