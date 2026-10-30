@@ -6,7 +6,7 @@
 
 ## 1. Overview
 
-This repository contains a computational workflow for calculating the elastic properties of crystalline gold (Au) using atomistic simulations.
+This repository contains a computational workflow for calculating the elastic properties of Bulk crystal using atomistic simulations.
 
 The workflow is based on `pyiron_workflow`, the Atomic Simulation Environment (ASE), and the Effective Medium Theory (EMT) interatomic potential.
 
