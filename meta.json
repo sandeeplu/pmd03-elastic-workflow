@@ -1,10 +1,10 @@
 {
   "workflow_environment": "pyiron",
-  "title": "Elastic Constants Calculation of Gold",
+  "title": "Elastic Constants of Bulk Crystals Using pyiron-workflow and ASE",
   "authors": [
     "Sandeep"
   ],
-  "description": "Calculation of elastic constants and bulk modulus of gold using pyiron-workflow, ASE and EMT.",
+  "description": "Calculation of elastic constants and bulk modulus of crystal using pyiron-workflow, ASE and EMT.",
   "release": "0.1.0",
   "keywords": [
     "elastic constants",
