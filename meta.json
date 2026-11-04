@@ -1,10 +1,10 @@
 {
   "workflow_environment": "pyiron",
-  "title": "Elastic Constants of Bulk Crystals Using pyiron-workflow and ASE",
+  "title": "Elastic Tensor Calculation of Bulk Crystal Using pyiron-workflow and ASE",
   "authors": [
     "Liam Huber"
   ],
-  "description": "Calculation of elastic constants and bulk modulus of crystal using pyiron-workflow, ASE and EMT.",
+  "description": "Calculation of elastic constants and bulk modulus of crystal (Au) using pyiron-workflow, ASE and EMT.",
   "release": "0.1.0",
   "keywords": [
     "elastic constants",
