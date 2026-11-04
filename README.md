@@ -17,7 +17,7 @@ It demonstrates how to construct and execute an atomistic workflow for calculati
 The objective is to calculate the elastic properties of bulk gold, including:
 
 - Elastic stiffness tensor (6 × 6 matrix).
-- Bulk modulus.
+- Voigt–Reuss–Hill (VRH) bulk modulus.
 - Stress–strain response.
 
 The workflow uses atomic structure relaxation, strain application, and stress calculations to determine the elastic properties.
