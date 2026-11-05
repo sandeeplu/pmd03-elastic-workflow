@@ -1,30 +1,38 @@
 {
   "workflow_environment": "pyiron",
-  "title": "Elastic Tensor Calculation of Bulk Crystal Using pyiron-workflow and ASE",
+  "title": "Elastic Constants of Bulk Crystals Using pyiron-workflow and ASE",
   "authors": [
     "Liam Huber"
   ],
-  "description": "Calculation of elastic constants and bulk modulus of crystal (Au) using pyiron-workflow, ASE and EMT.",
+  "description": "A computational workflow for calculating the elastic constants of bulk crystalline materials using atomistic simulations. The workflow uses pyiron-workflow and the Atomic Simulation Environment (ASE), with the Effective Medium Theory (EMT) interatomic potential. It generates the bulk crystal structure, performs structural relaxation, applies normal and shear strains, evaluates the resulting stresses, and fits the elastic stiffness tensor. It also calculates the Voigt-Reuss-Hill bulk modulus.",
   "release": "0.1.0",
   "keywords": [
     "elastic constants",
     "elastic stiffness tensor",
     "bulk modulus",
-    "gold",
-    "atomistic simulation"
+    "stress-strain analysis",
+    "atomistic simulation",
+    "crystalline materials",
+    "pyiron-workflow",
+    "ASE",
+    "EMT"
   ],
   "categories": [
     "atomistics"
   ],
   "steps": [
+    "Structure generation",
     "Structure relaxation",
     "Strain application",
     "Stress calculation",
-    "Elastic tensor calculation"
+    "Elastic tensor calculation",
+    "Bulk modulus calculation"
   ],
   "codes": [
     "ASE",
     "EMT",
-    "pyiron"
+    "pyiron-workflow",
+    "pyiron-workflow-atomistics"
   ]
 }
+
